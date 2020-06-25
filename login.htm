@@ -1,0 +1,29 @@
+<!--
+    Author: Junhyek Hyun (102524337)
+    File explanation:
+        This file is used for displaying a login feature for customers.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="login.js"></script>
+    <title>Login Page</title>
+</head>
+<body>
+    <h1>Login Customer</h1>
+
+        <div>
+            <label for="emailId">ID</label><br />
+            <input type="email" name="emailId" placeholder="enter email..." required id="emailId" />
+        </div>
+        <div>
+            <label for="password">Password</label><br />
+            <input type="password" name="password" placeholder="enter password..." required id="password"/><br />
+        </div><br />
+            <input type="submit" value="Login" onclick="validate()" />
+        <p id="succMsg"></p>
+</body>
+</html>

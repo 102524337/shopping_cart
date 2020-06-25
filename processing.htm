@@ -1,0 +1,41 @@
+<!--
+    Author: Junhyek Hyun (102524337)
+    File explanation:
+        This file is used for displaying a table that shows sold items. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="processing.js"></script>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            }
+
+        nav
+        {
+            margin-bottom: 30px;
+        }
+
+        .anchor
+        {
+            margin-left: 30px;
+        }
+    </style>
+    <title>Processing</title>
+</head>
+<body>
+    <nav id="nav">
+        <a class="anchor" href="listing.htm">Listing</a>
+        <a class="anchor" href="processing.htm">Processing</a>
+        <a class="anchor" href="logout.htm">Logout</a>
+    </nav>
+    <p>-------------------------------------------------------------------------------------------------------------------</p>
+    <table id="table"></table>
+    <div id="btn"></div>
+    <p id="warningMsg"></p>
+    <p id="processingMsg"></p>
+</body>
+</html>

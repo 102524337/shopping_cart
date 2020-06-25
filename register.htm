@@ -1,0 +1,51 @@
+<!--
+    Author: Junhyek Hyun (102524337)
+    File explanation:
+        This file is used for a customer registration
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="register.js"></script>
+    <title>Register</title>
+    <style>
+        #wrapper{
+            border: solid black 1px;
+            width: 400px;
+            background-color: antiquewhite;
+        }
+        .input{
+            width: 230px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration</h1>
+    <p>Fill in the fields down below</p>
+    
+    <div id="wrapper">
+    <label for="email">Email</label><br />
+    <input type="email" name="email" placeholder="enter email" id="email" class="input" /><br />
+    
+    <label for="Fname">First Name</label><br />
+    <input type="text" name="firstName" placeholder="enter first name" id="Fname" class="input"/><br />
+    
+    <label for="Lname">Last Name</label><br />
+    <input type="text" name="lastName" placeholder="enter last name" id="Lname" class="input" /><br />
+    
+    <label for="pwd">Password</label><br />
+    <input type="password" name="password" placeholder="enter password" id="pwd" class="input"/><br />
+
+    <label for="confirmedPwd">Confirm Password</label><br />
+    <input type="text" name="confirmedPwd" placeholder="enter password again for check out" id="confirmedPwd" class="input"/><br />
+
+    <label for="phone">Phone</label><br />
+    <input type="text" name="phone" placeholder="enter phone number (optional)" id="phone" class="input"/><br />
+
+    <input type="submit" name="submit" value="Register" onclick="validate()"/>
+    </div>
+    <p id="succMsg"></p>
+</body>
+</html>

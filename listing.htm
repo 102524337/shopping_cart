@@ -1,0 +1,51 @@
+<!--
+        Author: Junhyek Hyun (102524337)
+        File explanation:
+        This file is used for displaying item add up inputs for managers to input data to make a list
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item List</title>
+    <script src="listing.js"></script>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="listing.htm">Listing</a>
+        <a href="processing.htm">Processing</a>
+        <a href ="logout.htm">Logout</a>
+    </header>
+    <p>--------------------------------------------------------------------------------------------------------------------------------------</p>
+    <h1>Add New Items</h1>
+        <table>
+            <tr>
+                <td>item name</td>
+                <td><input type="text" name="itemName" placeholder="enter item name" id="itemName" required/></td>
+            </tr>
+            <tr>
+                <td>item price</td>
+                <td><input type="text" name="itemPrice" placeholder="enter price" id="itemPrice" required/></td>
+            </tr>
+            <tr>
+                <td>item quantity</td>
+                <td><input type="text" name="itemQuantity" placeholder="enter quantity" id="itemQuantity" required/></td>
+            </tr>
+            <tr>
+                <td>item description</td>
+                <td><textarea name="itemDescrip" id="itemDescrip" cols="30" rows="10" placeholder="enter description..." id="itemDescrip"></textarea></td>
+            </tr>
+        </table>
+        <button onclick="reset()">Reset</button>
+        <input type="submit" value="Add Item" onclick="validation()"/>
+        <p id="successOrFailureMsg" ></p>
+</body>
+</html>

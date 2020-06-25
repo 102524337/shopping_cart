@@ -1,0 +1,28 @@
+<!--
+    Author: Junhyek Hyun (102524337)
+    File explanation:
+        This file is used for displaying a login page for managers. Form is used for data transaction. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Page</title>
+</head>
+<body>
+    <h1>Login Manager</h1>
+
+    <form action="mlogin.php" method="GET">
+        <div>
+            <label for="managerId">ID</label><br />
+            <input type="text" name="managerId" placeholder="enter id..." required id="managerId" />
+        </div>
+        <div>
+            <label for="password">Password</label><br />
+            <input type="password" name="password" placeholder="enter password..." required id="password"/><br />
+        </div><br />
+            <input type="submit" value="Login"/>
+    </form>
+</body>
+</html>

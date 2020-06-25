@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../htdocs/Assignment2/goods.xsl"?>
+<items>
+  <item>
+    <itemNumber>529383</itemNumber>
+    <itemName>Samsung Galaxy Note 7</itemName>
+    <itemPrice>9000</itemPrice>
+    <itemQuantity>100</itemQuantity>
+    <itemDescrip>Released in 2017 product of South Korea</itemDescrip>
+    <quantityOnHold>0</quantityOnHold>
+    <quantitySold>0</quantitySold>
+  </item>
+  <item>
+    <itemNumber>496429</itemNumber>
+    <itemName>LG Note 7</itemName>
+    <itemPrice>4000</itemPrice>
+    <itemQuantity>395</itemQuantity>
+    <itemDescrip>Made in China and designed in South Korea. Release year 2013</itemDescrip>
+    <quantityOnHold>0</quantityOnHold>
+    <quantitySold>0</quantitySold>
+  </item>
+  <item>
+    <itemNumber>392448</itemNumber>
+    <itemName>Hyundai Sonata 3</itemName>
+    <itemPrice>30000</itemPrice>
+    <itemQuantity>48</itemQuantity>
+    <itemDescrip>released in 2018, a good car</itemDescrip>
+    <quantityOnHold>0</quantityOnHold>
+    <quantitySold>0</quantitySold>
+  </item>
+  <item>
+    <itemNumber>612424</itemNumber>
+    <itemName>Iphone X </itemName>
+    <itemPrice>80000</itemPrice>
+    <itemQuantity>399</itemQuantity>
+    <itemDescrip>iphone x generation released in 2019</itemDescrip>
+    <quantityOnHold>0</quantityOnHold>
+    <quantitySold>0</quantitySold>
+  </item>
+  <item>
+    <itemNumber>522984</itemNumber>
+    <itemName>Pavillion 8</itemName>
+    <itemPrice>1200</itemPrice>
+    <itemQuantity>988</itemQuantity>
+    <itemDescrip>Gaming laptop, made by HP</itemDescrip>
+    <quantityOnHold>0</quantityOnHold>
+    <quantitySold>0</quantitySold>
+  </item>
+  <item>
+    <itemNumber>167014</itemNumber>
+    <itemName>Samsung Foldable</itemName>
+    <itemPrice>30000</itemPrice>
+    <itemQuantity>32</itemQuantity>
+    <itemDescrip>world's first fold-able phone. </itemDescrip>
+    <quantityOnHold>0</quantityOnHold>
+    <quantitySold>0</quantitySold>
+  </item>
+  <item>
+    <itemNumber>737699</itemNumber>
+    <itemName>Oliver Kitchenware</itemName>
+    <itemPrice>80</itemPrice>
+    <itemQuantity>2974</itemQuantity>
+    <itemDescrip>Oliver Kitchenware made in China</itemDescrip>
+    <quantityOnHold>0</quantityOnHold>
+    <quantitySold>0</quantitySold>
+  </item>
+  <item>
+    <itemNumber>106821</itemNumber>
+    <itemName>Mac Pro</itemName>
+    <itemPrice>10000</itemPrice>
+    <itemQuantity>27</itemQuantity>
+    <itemDescrip>mac pro made in China </itemDescrip>
+    <quantityOnHold>0</quantityOnHold>
+    <quantitySold>0</quantitySold>
+  </item>
+  <item>
+    <itemNumber>270816</itemNumber>
+    <itemName>Nokia 7</itemName>
+    <itemPrice>300</itemPrice>
+    <itemQuantity>76</itemQuantity>
+    <itemDescrip>Tank phone used in the military force</itemDescrip>
+    <quantityOnHold>0</quantityOnHold>
+    <quantitySold>0</quantitySold>
+  </item>
+</items>
